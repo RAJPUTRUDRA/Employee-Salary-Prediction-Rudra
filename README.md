@@ -1,6 +1,8 @@
 Live Application:https://c0cad908ae27.ngrok-free.app/
 <img width="1902" height="939" alt="Screenshot 2025-07-28 233613" src="https://github.com/user-attachments/assets/df116297-54d9-494e-a4ec-68420d61e63e" />
+
 🧠 The Machine Learning Pipeline
+
 The predictive power of this application comes from a carefully constructed machine learning pipeline.
 
 Algorithm: XGBoost Regressor was chosen for its high performance and robustness.
