@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-data=pd.read_csv("C:\Users\rudra\OneDrive\Documents\adult 3.csv")
+data=pd.read_csv(r"C:\Users\rudra\OneDrive\Documents\adult 3.csv")
 
 data.head(15)
 
