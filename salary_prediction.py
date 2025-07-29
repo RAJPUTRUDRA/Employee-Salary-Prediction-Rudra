@@ -259,7 +259,8 @@ print("✅ Saved best model as best_model.pkl")
 
 !pip install streamlit pyngrok
 
-!ngrok authtoken 30Ug0W1TaA3Gsm8PzWPehiUXK7O_5Kv214YDbmSM8DsxgvLXQ
+import os
+os.system("ngrok authtoken 30Ug0W1TaA3Gsm8PzWPehiUXK7O_5Kv214YDbmSM8DsxgvLXQ")
 
 import os
 import threading
