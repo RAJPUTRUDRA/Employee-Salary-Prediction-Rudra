@@ -1,8 +1,6 @@
-
-
 import pandas as pd
 
-data=pd.read_csv(r"C:\Users\rudra\OneDrive\Documents\adult 3.csv")
+data=pd.read_csv("/content/adult 3.csv")
 
 data.head(15)
 
@@ -250,11 +248,9 @@ print("✅ Saved best model as best_model.pkl")
 # 
 #
 
-import os
-os.system("pip install streamlit pyngrok")
+!pip install streamlit pyngrok
 
-import os
-os.system("ngrok authtoken 30Ug0W1TaA3Gsm8PzWPehiUXK7O_5Kv214YDbmSM8DsxgvLXQ")
+!ngrok authtoken 30Ug0W1TaA3Gsm8PzWPehiUXK7O_5Kv214YDbmSM8DsxgvLXQ
 
 import os
 import threading
@@ -291,6 +287,3 @@ try:
     input("Press Enter to stop the tunnel...")
 except Exception as e:
     print(f"Error creating ngrok tunnel: {e}")
-
-
-
